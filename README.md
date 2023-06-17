@@ -1,11 +1,11 @@
-About r-tabulizerjars
-=====================
+About r-tabulizerjars-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tabulizerjars-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropensci/tabulizerjars
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tabulizerjars-feedstock/blob/main/LICENSE.txt)
 
 Summary: 'Java' .jar files for the 'Tabula' <http://tabula.technology/> 'Java' library, which are required by the 'tabulizer' R package. The version numbering of this package corresponds to versions of 'tabula-java' library releases <https://github.com/tabulapdf/tabula-java/releases/>.
 
