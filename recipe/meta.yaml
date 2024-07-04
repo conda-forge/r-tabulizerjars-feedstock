@@ -1,7 +1,6 @@
 {% set version = '1.0.1' %}
 
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-tabulizerjars
@@ -14,10 +13,9 @@ source:
   sha256: 22b93a91e73ba0fbed26f57e6ccf53fc536a6236ba23792b8008d7fffd13b600
 
 build:
-  number: 3
+  number: 4
   noarch: generic
   script: R CMD INSTALL --build .
-  merge_build_host: True  # [win]
   rpaths:
     - lib/R/lib/
     - lib/
